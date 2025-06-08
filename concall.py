@@ -8,7 +8,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # ✅ Google Gemini API Setup
-API_KEY = "AIzaSyDrvlH5S6v-9D5MlUN8UNCK2Aj7EFgNOm4"  # Replace with your actual API key
+API_KEY = ""  # Replace with your actual API key
 genai.configure(api_key=API_KEY)
 
 # ✅ Initialize WebDriver
